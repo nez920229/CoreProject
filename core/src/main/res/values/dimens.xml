@@ -1,0 +1,82 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="navigation_bar_height">160px</dimen>
+    <dimen name="title_bar_height">159px</dimen>
+
+    <dimen name="textsize_20">20px</dimen>
+    <dimen name="textsize_22">22px</dimen>
+    <dimen name="textsize_24">24px</dimen>
+    <dimen name="textsize_26">26px</dimen>
+    <dimen name="textsize_27">27px</dimen>
+    <dimen name="textsize_28">28px</dimen>
+    <dimen name="textsize_29">29px</dimen>
+    <dimen name="textsize_30">30px</dimen>
+    <dimen name="textsize_32">32px</dimen>
+    <dimen name="textsize_34">34px</dimen>
+    <dimen name="textsize_36">36px</dimen>
+    <dimen name="textsize_42">42px</dimen>
+    <dimen name="textsize_40">40px</dimen>
+    <dimen name="textsize_44">44px</dimen>
+    <dimen name="textsize_46">46px</dimen>
+    <dimen name="textsize_50">50px</dimen>
+    <dimen name="textsize_52">52px</dimen>
+    <dimen name="textsize_56">56px</dimen>
+
+    <dimen name="textsize_sp_13">13sp</dimen>
+    <dimen name="textsize_sp_12">12sp</dimen>
+
+    <dimen name="tab_radio_date">102px</dimen>
+    <dimen name="padding_size_80">80px</dimen>
+    <dimen name="padding_size_60">60px</dimen>
+    <dimen name="padding_size_40">40px</dimen>
+    <dimen name="padding_size_34">34px</dimen>
+    <dimen name="padding_size_44">44px</dimen>
+    <dimen name="padding_size_14">14px</dimen>
+    <dimen name="padding_size_16">16px</dimen>
+    <dimen name="padding_size_10">10px</dimen>
+    <dimen name="padding_size_20">20px</dimen>
+    <dimen name="padding_size_30">30px</dimen>
+
+    <!--safe-->
+    <dimen name="height_78">78px</dimen>
+    <dimen name="height_82">82px</dimen>
+    <dimen name="height_100">100px</dimen>
+    <dimen name="height_151">151px</dimen>
+    <dimen name="height_154">154px</dimen>
+    <dimen name="height_198">198px</dimen>
+    <dimen name="height_394">394px</dimen>
+    <dimen name="statusbar_view_height">0dp</dimen>
+    
+    
+    <dimen name="problem_title">52px</dimen>
+    <dimen name="problem_content">46px</dimen>
+    <dimen name="problem_location">40px</dimen>
+    <dimen name="item_emergency_height">80px</dimen>
+
+    <dimen name="margin_large">20dp</dimen>
+
+
+    <dimen name="btn_height">120px</dimen>
+
+    <dimen name="text_title_size">46px</dimen>
+
+
+    <dimen name="margin_160">160px</dimen>
+
+    <dimen name="item_event_title">54px</dimen>
+    <dimen name="item_event_content">48px</dimen>
+
+    <dimen name="item_event_title_detail">54px</dimen>
+    <dimen name="item_event_content_detail">48px</dimen>
+    <dimen name="def_height">50dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+</resources>

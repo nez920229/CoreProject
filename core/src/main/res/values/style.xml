@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CirclePanelView">
+        <attr name="numberSize" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="rectWidth" format="dimension"/>//宽
+        <attr name="rectLength" format="dimension"/>//长
+        <attr name="lineSpace" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="PointsView">
+        <attr name="roundRadius" format="dimension"/>
+        <attr name="pointRadius" format="dimension"/>
+        <attr name="roundColor" format="color"/>
+        <attr name="pointColor" format="color"/>
+    </declare-styleable>
+
+    <style name="popwin_anim_style">
+        <item name="android:windowEnterAnimation">@anim/still</item>
+        <item name="android:windowExitAnimation">@anim/still</item>
+    </style>
+
+
+
+    <style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style>
+
+    <style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style>
+
+</resources>

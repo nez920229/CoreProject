@@ -1,0 +1,81 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+android {
+    compileSdkVersion 30
+
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 30
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    buildToolsVersion '28.0.3'
+}
+
+dependencies {
+    api fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "android.arch.lifecycle:runtime:1.0.3"
+    annotationProcessor "android.arch.lifecycle:compiler:1.0.0"
+
+
+    implementation 'com.github.bumptech.glide:glide:'+ rootProject.ext.glideVersion
+    implementation 'io.reactivex.rxjava2:rxandroid:'+rootProject.ext.rxandroidVersion
+    implementation 'io.reactivex.rxjava2:rxjava:'+rootProject.ext.rxjavaVersion
+    implementation 'com.squareup.retrofit2:retrofit:' + rootProject.ext.retrofitVersion
+    implementation 'com.squareup.retrofit2:converter-gson:' + rootProject.ext.retrofitVersion
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:' + rootProject.ext.retrofitVersion
+//    implementation 'com.google.code.gson:gson:' + rootProject.ext.gsonVersion
+    implementation 'com.squareup.okhttp3:okhttp:' + rootProject.ext.okhttpVersion
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+    implementation 'com.android.support:appcompat-v7:' + rootProject.ext.supportLibVersion
+    implementation 'com.android.support:support-v4:' + rootProject.ext.supportLibVersion
+    implementation 'com.android.support:design:' + rootProject.ext.supportLibVersion
+    implementation 'com.android.support:support-vector-drawable:' + rootProject.ext.supportLibVersion
+    implementation 'com.zhy:autolayout:1.4.5'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'in.srain.cube:ultra-ptr:1.0.11'
+    implementation 'com.jaeger.statusbarutil:library:1.4.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
+    implementation 'in.srain.cube:ultra-ptr:1.0.11'
+    implementation 'com.tbruyelle.rxpermissions:rxpermissions:0.7.0@aar'
+
+    implementation 'com.zyao89:zloading:1.0.2'
+    api 'cn.finalteam.rxgalleryfinal:library:1.1.2'
+    //    compile 'com.dou361.dialogui:jjdxm-dialogui:1.0.3'
+    implementation 'org.litepal.android:core:1.6.0'
+
+}
+
+apply plugin: 'maven-publish'
+apply plugin: 'maven'
+
+def MAVEN_LOCAL_PATH ='http://111.204.35.244:8081/artifactory/gradle-release-local'
+def ARTIFACT_ID = 'core'
+def VERSION_NAME = '0.1.5'
+def GROUP_ID = 'com.boco.app.lib'
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url:MAVEN_LOCAL_PATH ){
+                authentication(userName: "admin", password:"admin")
+            }
+            pom.project {
+                groupId GROUP_ID
+                artifactId ARTIFACT_ID
+                version VERSION_NAME
+                packaging 'aar'
+            }
+        }
+    }
+}

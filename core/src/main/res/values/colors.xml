@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21aff9</color>
+    <color name="colorPrimaryDark">#219fff</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#A0A0A0</color>
+    <color name="color_38bFFE">#38bFFE</color>
+    <color name="title_back_blue">#21aff1</color>
+    <color name="tab_radio_date_blue">#35bdfd</color>
+    <color name="number_blue">#22b1f4</color>
+
+
+    <color name="divider_line_color">#c3c3c3</color>
+    <color name="divider_view_color">#f2f2f2</color>
+
+    <color name="color_text_black_65">#656565</color>
+    <color name="color_text_balck_28">#282828</color>
+    <color name="color_check_box_unselects">#A0A0A0</color>
+
+
+    <color name="color_edt_hint">#989898</color>
+    <color name="color_edt_text">#37b7f2</color>
+
+    <color name="color_popu_total_green">#24b967</color>
+    <color name="color_popu_woman">#fe6565</color>
+
+    <color name="color_positive">#55DCc7</color>
+    <color name="color_negative">#FE7C73</color>
+
+
+    <color name="color_pending">#FC7167</color>
+    <color name="color_handing">#FEAE58</color>
+    <color name="color_complete">#59D39E</color>
+    <color name="color_evaluate">#98A3E7</color>
+
+
+
+    <color name="check_bg">#e9e9e9</color>
+    <color name="uncheck_bg">#f9f9f9</color>
+    <color name="drop_down_selected">#21AFF1</color>
+    <color name="drop_down_unselected">#111111</color>
+
+    <color name="accident_text_color">#3963fe</color>
+    <color name="event_text_color">#ff8989</color>
+
+    <!--平安指数-城-城市事件-->
+    <color name="top_one">#b2e379</color>
+    <color name="top_two">#f9a06a</color>
+    <color name="top_three">#7bcbfe</color>
+    <color name="top_four">#f2e04a</color>
+    <color name="top_five">#fa9297</color>
+
+    <color name="line_chart_single">#28BFFE</color>
+
+    <!--环比颜色-->
+    <color name="mom_up">#FD3030</color>
+    <color name="mom_down">#04D662</color>
+
+
+    <!--同环比颜色-->
+    <color name="yoy_color">#F6B37F</color>
+    <color name="mom_color">#7186F1</color>
+
+    <color name="user_name_color">#576B95</color>
+
+    <color name="color_event_type">#FE6601</color>
+
+
+
+
+    <color name="black_tranc">#722e2e2e</color>
+    <color name="color_fa9c55">#fa9c55</color>
+    <color name="color_f2f2f2">#f2f2f2</color>
+    <color name="color_fa6656">#fa6656</color>
+    <color name="color_38bffe">#38bffe</color>
+    <color name="color_656565">#656565</color>
+    <color name="color_0fa1d5">#0fa1d5</color>
+
+
+    <color name="number_color">#f29221</color>
+    <color name="content_color">#666666</color>
+    <color name="white_normal">#ffffffff</color>
+    <color name="login_button_background">#1da2e0</color>
+</resources>

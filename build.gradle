@@ -1,0 +1,56 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext.kotlin_version = '1.4.0'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.1"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+ext {
+    coreLib = '0.1.4'
+    updateLib = '0.1.1'
+    tinkerLib = '0.0.1'
+    MPChartLib = '0.0.3'
+    mpushLib = '0.1.2'
+
+    minSdk = 16
+    targetSdk = 21
+    buildToolsVersion = '26.0.2'
+    compileSdkVersion = 25
+    versionCode = '1'
+
+    javaSourceCompatibility = JavaVersion.VERSION_1_7
+    javaTargetCompatibility = JavaVersion.VERSION_1_7
+
+    // Libraries
+    glideVersion = '3.7.0'
+    supportLibVersion = '25.4.0'
+    rxandroidVersion = '2.0.1'
+    rxjavaVersion = '2.1.0'
+    retrofitVersion = '2.2.0'
+    gsonVersion = '2.8.0'
+    okhttpVersion = '3.7.0'
+    eventbusVersion = '3.0.0'
+    constraintlayoutVersion = '1.0.2'
+
+//    apply plugin: 'announce'
+
+}

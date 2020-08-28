@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="pts1" />
+
+    <version value="2" />
+
+    <list>
+        <mapping class="com.boco.safecity.command.bmap.Route" />
+        <mapping class="com.boco.safecity.command.bmap.Route_latlng" />
+    </list>
+</litepal>
